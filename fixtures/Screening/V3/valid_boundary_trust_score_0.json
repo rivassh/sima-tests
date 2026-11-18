@@ -1,0 +1,14 @@
+{
+  "entity_id": "candidate_000",
+  "trust_score": 0,
+  "status": "REJECTED",
+  "audit_summary": {
+    "total_claims_found": 0,
+    "verified_claims_count": 0,
+    "conflicts_count": 0,
+    "dominant_source": "none"
+  },
+  "verified_facts": [],
+  "conflicts_detected": [],
+  "curated_knowledge_snippet": "No verifiable information found for this entity."
+}

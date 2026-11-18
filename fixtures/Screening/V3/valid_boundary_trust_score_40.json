@@ -1,0 +1,21 @@
+{
+  "entity_id": "candidate_040",
+  "trust_score": 40,
+  "status": "NEEDS_MANUAL_AUDIT",
+  "audit_summary": {
+    "total_claims_found": 3,
+    "verified_claims_count": 1,
+    "conflicts_count": 0,
+    "dominant_source": "tier_3_social"
+  },
+  "verified_facts": [
+    {
+      "attribute": "full_name",
+      "value": "Boundary Test",
+      "authority_weight": 0.4,
+      "supporting_sources": ["https://facebook.com/boundary.test"]
+    }
+  ],
+  "conflicts_detected": [],
+  "curated_knowledge_snippet": "Boundary Test has limited verifiable information."
+}

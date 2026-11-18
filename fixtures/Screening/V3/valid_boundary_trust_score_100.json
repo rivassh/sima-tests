@@ -1,0 +1,27 @@
+{
+  "entity_id": "candidate_100",
+  "trust_score": 100,
+  "status": "APPROVED",
+  "audit_summary": {
+    "total_claims_found": 5,
+    "verified_claims_count": 5,
+    "conflicts_count": 0,
+    "dominant_source": "tier_1_official_registry"
+  },
+  "verified_facts": [
+    {
+      "attribute": "full_name",
+      "value": "Perfect Candidate",
+      "authority_weight": 1.0,
+      "supporting_sources": ["https://gov.registry/candidate/100"]
+    },
+    {
+      "attribute": "title",
+      "value": "Principal Engineer",
+      "authority_weight": 1.0,
+      "supporting_sources": ["https://gov.registry/candidate/100"]
+    }
+  ],
+  "conflicts_detected": [],
+  "curated_knowledge_snippet": "Perfect Candidate is a Principal Engineer with full official verification."
+}

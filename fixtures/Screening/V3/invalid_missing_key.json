@@ -1,0 +1,13 @@
+{
+  "entity_id": "candidate_123",
+  "trust_score": 85,
+  "status": "APPROVED",
+  "audit_summary": {
+    "total_claims_found": 5,
+    "verified_claims_count": 4,
+    "conflicts_count": 0,
+    "dominant_source": "tier_1_official_registry"
+  },
+  "verified_facts": [],
+  "conflicts_detected": []
+}

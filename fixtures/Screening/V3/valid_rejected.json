@@ -1,0 +1,28 @@
+{
+  "entity_id": "candidate_789",
+  "trust_score": 35,
+  "status": "REJECTED",
+  "audit_summary": {
+    "total_claims_found": 4,
+    "verified_claims_count": 1,
+    "conflicts_count": 1,
+    "dominant_source": "tier_4_noise"
+  },
+  "verified_facts": [
+    {
+      "attribute": "full_name",
+      "value": "Bob Unknown",
+      "authority_weight": 0.1,
+      "supporting_sources": ["https://random-blog.example/bob"]
+    }
+  ],
+  "conflicts_detected": [
+    {
+      "attribute": "identity",
+      "rejected_value": "different_person",
+      "accepted_value": "Bob Unknown",
+      "rationale": "Critical identity conflict detected between sources"
+    }
+  ],
+  "curated_knowledge_snippet": "Bob Unknown has minimal verifiable information from low-authority sources."
+}

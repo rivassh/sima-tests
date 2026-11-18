@@ -1,0 +1,22 @@
+{
+  "entity_id": "candidate_123",
+  "trust_score": 85,
+  "status": "APPROVED",
+  "audit_summary": {
+    "total_claims_found": 5,
+    "verified_claims_count": 4,
+    "conflicts_count": 0,
+    "dominant_source": "tier_1_official_registry"
+  },
+  "verified_facts": [
+    {
+      "attribute": "full_name",
+      "value": "John Doe",
+      "authority_weight": 1.0,
+      "supporting_sources": ["https://gov.registry/candidate/123"]
+    }
+  ],
+  "conflicts_detected": [],
+  "curated_knowledge_snippet": "John Doe is a Senior PHP Developer.",
+  "extra_field": "not allowed"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "candidate_456",
+  "trust_score": 65,
+  "status": "NEEDS_MANUAL_AUDIT",
+  "audit_summary": {
+    "total_claims_found": 6,
+    "verified_claims_count": 4,
+    "conflicts_count": 2,
+    "dominant_source": "tier_2_linkedin"
+  },
+  "verified_facts": [
+    {
+      "attribute": "full_name",
+      "value": "Jane Smith",
+      "authority_weight": 1.0,
+      "supporting_sources": ["https://gov.registry/candidate/456"]
+    },
+    {
+      "attribute": "company",
+      "value": "Tech Corp",
+      "authority_weight": 0.8,
+      "supporting_sources": ["https://linkedin.com/in/janesmith", "https://github.com/janesmith"]
+    }
+  ],
+  "conflicts_detected": [
+    {
+      "attribute": "title",
+      "rejected_value": "Junior Developer",
+      "accepted_value": "Senior Developer",
+      "rationale": "Tier 1 source (official registry) takes precedence over Tier 2 (LinkedIn)"
+    },
+    {
+      "attribute": "experience_years",
+      "rejected_value": "2",
+      "accepted_value": "5",
+      "rationale": "Equal weight sources (Tier 2 LinkedIn vs Tier 2 GitHub) - conflict recorded for manual audit"
+    }
+  ],
+  "curated_knowledge_snippet": "Jane Smith works at Tech Corp as a Senior Developer with 5 years experience."
+}
